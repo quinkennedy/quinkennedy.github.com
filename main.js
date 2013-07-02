@@ -1,9 +1,10 @@
-var repos, repoTemplate, iframe;
+var repos, repoTemplate, iframe, content;
 var username = "quinkennedy";
 var useCache = true;
 
 var initialize = function(){
   iframe = $("#iframe");
+  content = $("#content_container");
 	console.log("initialize");
   var getInfoURL = useCache ? "stale_github_info.json" : ("https://api.github.com/users/"+username+"/repos");
 	$.ajax(getInfoURL, {
@@ -42,6 +43,7 @@ var useRepoTemplate = function(){
 		var htmlResult = repoTemplate({repositories:repos});
 		$("#nav .content").html(htmlResult);
 		$("#frame .nav .content").html(htmlResult);
+		$("#landing").css("display", "none");
 	}
 };
 
@@ -55,15 +57,40 @@ var repoHasPages = function(index){
 	return curr.has_gh_pages;
 };
 
+var gotReadmeMD = function(index, data, status, xhr){
+	if (status === "error"){
+		getReadmeTXT(index);
+		return;
+	}
+	$.post("http://api.github.com/markdown/raw", response, gotReadmeHTML, "html");
+};
+
+var gotReadmeHTML = function(data, textStatus, jqXHR){
+	iframe.css("display", "none");
+	content.css("display", "block");
+	content.html(data);
+};
+
+var defaultText = function(index){
+	iframe.css("display", "none");
+	content.css("display","block");
+	var url = "http://github.com/"+username+"/"+repos[index].name;
+	content.html("you can see this repo on github at <a href='"+url+"'>"+url+"</a>");
+};
+
 var clickedRepo = function(index){
 	if (repos[index].branches_info){
 		if (repoHasPages(index)){
+			content.css("display", "none");
 			iframe.css("display", "block");
 			iframe.prop("src", "http://"+username+".github.com/"+repos[index].name+"/index.html");
 		} else {
-			iframe.css("display", "block");
-			iframe.prop("src", "http://raw.github.com/"+username+"/"+repos[index].name+"/"+repos[index].default_branch+"/README.md");
-			//TODO: get the markdown and then use api.github.com/markdown/raw to get the html and put it in a div
+			var url = "http://raw.github.com/"+username+"/"+repos[index].name+"/"+repos[index].default_branch+"/README.md";
+			console.log("trying to get: " + url);
+			$.ajax(url, {
+				error:function(){console.error("error getting README.md"); console.error(arguments); defaultText(index);},
+				success:gotReadmeMD
+			});
 		}
 		document.body.appendChild(frame);
 	} else {
