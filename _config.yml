@@ -1,0 +1,11 @@
+# Site settings
+title: Welcome to Quin Kennedy
+email: quinkennedy@gmail.com
+description: "Portfolio website for Quin Kennedy."
+baseurl: ""
+url: "http://quinkennedy.com"
+username: "quinkennedy"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
