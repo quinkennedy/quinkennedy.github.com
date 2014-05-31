@@ -2,10 +2,14 @@
 title: Welcome to Quin Kennedy
 email: quinkennedy@gmail.com
 description: "Portfolio website for Quin Kennedy."
-baseurl: "http://quinkennedy.github.io"
+baseurl: ""
 url: "http://quinkennedy.com"
 username: "quinkennedy"
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+#GitHub defaults
+safe: true
+lsi: false

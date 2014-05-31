@@ -4,10 +4,32 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Quin Kennedy is sometimes called a Renaissance Man.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+He feels comfortable with the following titles:
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+* Developer
+* Creative Coder
+* Creative Technologist
+* Bicycle Messenger
+* Game Developer
+* Web Developer
+* Interaction Developer
+* Lighting Designer
+* Backstage Crew
+* Lightboard Operator
+* Artist
+* Handyman
+* Dancer
+* Experimenter
+* Explorer
+* Urban Cyclist
+* Mountain Biker
 
-And then just `do the codes`
+He is involved/associated with the following things:
+
+* [LAB @ Rockwell Group](http://www.rockwellgroup.com/lab), [alt](http://vimeopro.com/labatrockwell/public)
+* [Spacebrew](http://spacebrew.cc)
+* [Variations on](http://variationson.us/)
+* [NYC Mesh Net](http://nycmesh.net/)
+* [Art Hack Day](http://www.arthackday.net/)
