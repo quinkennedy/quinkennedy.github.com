@@ -1,0 +1,29 @@
+body{
+	background-size:cover;
+	background-image:url("../img/traffic.jpg");
+	width:100%;
+	height:100%;
+	background-position:center;
+	cursor:none;
+}
+#overlay{
+	background-color:#FF0000;
+	width:100%;
+	height:100%;
+}
+#finish{
+	background-size:contain;
+	width:100%;
+	height:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.win{
+	background-image:url("../img/BE-A-WINNER_transparent.gif");
+}
+.lose{
+	background-image:url("../img/tumblr_mjsk4j5bYW1rz9we6o1_400.png");
+}
+div{
+	position:absolute;
+}
