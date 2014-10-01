@@ -6,16 +6,14 @@ var initialize = function(){
   iframe = $("#iframe");
   content = $("#content_container");
 	console.log("initialize");
-  var getInfoURL = useCache ? "stale_github_info.json" : ("https://api.github.com/users/"+username+"/repos");
-	$.ajax(getInfoURL, {
-		complete:function(){console.log("complete repo request");},
-		success:gotRepos,
-		error:function(){console.error("error during repo request"); console.error(arguments);}
-	});
-	getTemplateAjax("repo_links.handlebars", gotRepoTemplate);
+	$.getJSON("site.json", buildSite);
 };
 
 $(document).ready(initialize);
+
+var buildSite = function(data, status, xhr){
+	console.log("buildSite");
+};
 
 //sort by updated_at?
 //also sort by fork
