@@ -2,9 +2,10 @@
 layout: post
 title:  "Commandments"
 date:   2013-03-02 18:00:00
-categories: art, Spacebrew, event, ArtHackDay, Arduino, Javascript, Node.js
+categories: art
 brief: "Commandments delivered from on high."
 cover: /images/10_level.jpg
+tags: [Spacebrew, event, ArtHackDay, Arduino, Javascript, Node.js]
 ---
 
 [The web experience](http://quinkennedy.github.io/Commandments/) (Chrome, Firefox)
