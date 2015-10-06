@@ -13,3 +13,6 @@ permalink: pretty
 #GitHub defaults
 safe: true
 lsi: false
+
+#Vagrant settings
+exclude: Vagrantfile

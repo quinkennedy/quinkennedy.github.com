@@ -38,6 +38,37 @@ a:visited { color: #205caa; }
 /* Layout Styles */
 /* ----------------------------------------------------------*/
 
+/* Mine */
+
+.post-separator{
+  border-width:2px 0px 0px 0px;
+  border-style:solid;
+  border-color:black;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.blog-masthead{
+  background-color:darkgrey;
+}
+
+.nav-title{
+  font-weight:bold;
+}
+
+.blog-nav-item{
+  color:white;
+  margin-left-width:10px;
+  border-style:solid;
+  border-color:white;
+  border-width:0px 0px 0px 3px;
+}
+
+.blog-nav-item:link,
+.blog-nav-item:visited{
+  color:white;
+}
+
 /* Site header */
 
 .site-header {

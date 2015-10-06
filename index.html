@@ -2,34 +2,33 @@
 layout: default
 ---
 
-<div class="home">
-  <h1>Of The Highest Importance</h1>
-  <ul class="links">
-    <li>
-      <a href="https://github.com/{{ site.username }}">GitHub account</a>
-    </li>
-    <li>
-      <a href="http://quinkennedy.github.io/spacebrew-stuff/">Spacebrew Stuff</a>
-    </li>
-    <li>
-      <a href="http://quinkennedy.com/">Other Site</a>
-    </li>
-    <li>
-      <a href="http://vimeopro.com/labatrockwell/public">LAB@rg videos</a>
-    </li>
-  </ul>
-<br />
-  <h1>Posts</h1>
-
-  <ul class="posts">
     {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
+	<div class="row">
+		<div class="col-xs-4 col-xs-offset-3 post-separator">
+		</div>
+	</div>
+	<div class="row visible-xs-block post-title">
+        	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h2>{{ post.title }}</h2></a>
+	</div>
+      <div class="row post">
+		<div class="col-sm-5 post-img">
+        	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><img class="img-responsive" src="{{ post.cover }}" alt="wherefore art thou image?"></img></a>
+		</div>
+		<div class="col-sm-7 hidden-xs post-txt">
+        	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h2>{{ post.title }}</h2></a><br />{{ post.brief }}
+		</div>
+	  </div>
     {% endfor %}
-  </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+	<div class="row">
+		<div class="col-xs-4 col-xs-offset-4 post-separator">
+		</div>
+	</div>
 
-</div>
+	<div class="row">
+		<div class="col-12">
+
+  			<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+		</div>
+	</div>
+
