@@ -4,32 +4,23 @@ title: About
 permalink: /about/
 ---
 
-Quin Kennedy is sometimes called a Renaissance Man.
+I entered university a ballet dancer, and came out a computer scientist.
 
-He feels comfortable with the following titles:
+I work as a generalist, and have many years experience in the following roles:
 
-* Developer
-* Creative Coder
 * Creative Technologist
-* Bicycle Messenger
-* Game Developer
-* Web Developer
-* Interaction Developer
-* Lighting Designer
-* Backstage Crew
-* Lightboard Operator
-* Artist
-* Handyman
-* Dancer
-* Experimenter
-* Explorer
-* Urban Cyclist
-* Mountain Biker
+	- Working with Designers and Architects to develop a concept
+	- Identifying hardware and software approaches
+* Prototyper
+	- Testing interaction scenarios
+	- Validating visual approaches at scale
+	- Confirming hardware and software capabilities
+* Developer
+	- Managing configuration and deployment of multi-machine installations
+	- Integrating hardware and software pieces with common communication backbone
+	- Developing frontend logic and backend services in openFrameworks, Processing, Node.js, Java
 
-He is involved/associated with the following things:
+Other skills and interests:
 
-* [LAB @ Rockwell Group](http://www.rockwellgroup.com/lab), [alt](http://vimeopro.com/labatrockwell/public)
-* [Spacebrew](http://spacebrew.cc)
-* [Variations on](http://variationson.us/)
-* [NYC Mesh Net](http://nycmesh.net/)
-* [Art Hack Day](http://www.arthackday.net/)
+* working as a Lighting Designer for both dance and theater.
+* creating and distributing zines: [PaperBon.net](http://paperbon.net)

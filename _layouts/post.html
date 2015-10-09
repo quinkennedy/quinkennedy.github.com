@@ -1,15 +1,28 @@
 ---
 layout: default
 ---
-<div class="post">
-
-  <header class="post-header">
-    <h1>{{ page.title }}</h1>
-    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
-
-  <article class="post-content">
-  {{ content }}
-  </article>
-
+<div class="row">
+<div class="col">
+<h1>{{ page.title }}</h1>
 </div>
+</div>
+<div class="row">
+<div class="col">
+<img src="{{ page.top_image | prepend: site.baseurl }}" class="img-responsive"></img>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6{% if page.other_images.size > 0 %} col-md-push-6{% endif %}">
+{{ content }}
+</div>
+{% if page.other_images.size > 0 %}
+<div class="col-md-6 col-md-pull-6">
+{% for img in page.other_images %}
+<div class="row">
+<div class="col">
+<img src="{{ img | prepend: site.baseurl }}" class="img-responsive"></img>
+</div>
+</div>
+{% endfor %}
+</div>
+{% endif %}

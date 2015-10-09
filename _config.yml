@@ -1,5 +1,5 @@
 # Site settings
-title: Welcome to Quin Kennedy
+title: Quin Kennedy
 email: quinkennedy@gmail.com
 description: "Portfolio website for Quin Kennedy."
 baseurl: ""
@@ -15,4 +15,4 @@ safe: true
 lsi: false
 
 #Vagrant settings
-exclude: Vagrantfile
+exclude: [Vagrantfile]
