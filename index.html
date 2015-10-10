@@ -5,7 +5,9 @@ title: Work
 
     {% for post in site.categories.work %}
 	<div class="row visible-xs-block post-title">
+		<div class="col-xs-12">
         	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h2>{{ post.title }}</h2></a>
+		</div>
 	</div>
     <div class="row post">
 	  <div class="col-sm-5 post-img">
@@ -16,13 +18,13 @@ title: Work
 	  </div>
 	</div>
 	<div class="row">
-		<div class="col-sm-4 col-xs-offset-3 post-separator">
+		<div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-3 post-separator">
 		</div>
 	</div>
     {% endfor %}
 
 	<div class="row">
-		<div class="col-12">
+		<div class="col-xs-12">
 
   			<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 		</div>
