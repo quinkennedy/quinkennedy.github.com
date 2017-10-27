@@ -6,14 +6,16 @@ layout: default
     <h1>{{ page.title }}</h1>
   </div>
 </div>
-<div class="row top-image">
-  <div class="col-xs-12">
-    <img
-    src="{{ page.top_image | prepend: site.baseurl }}"
-    class="img-responsive"
-    alt="{{ page.title }} banner image"/>
+{% if page.top_image %}
+  <div class="row top-image">
+    <div class="col-xs-12">
+      <img
+      src="{{ page.top_image | prepend: site.baseurl }}"
+      class="img-responsive"
+      alt="{{ page.title }} banner image"/>
+    </div>
   </div>
-</div>
+{% endif %}
 <div class="row">
   <div
   class="col-md-6{% if page.other_images.size > 0 %} col-md-push-6{% endif %}">
