@@ -6,27 +6,40 @@ title: Work
     {% for post in site.categories.work %}
 	<div class="row visible-xs-block post-title">
 		<div class="col-xs-12">
-        	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h2>{{ post.title }}</h2></a>
+        	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            <h2>{{ post.title }}</h2>
+          </a>
 		</div>
 	</div>
-    <div class="row post">
+  <div class="row post">
 	  <div class="col-sm-5 post-img">
-      	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><img class="img-responsive" src="{{ post.cover | prepend: "/images/724/" }}" alt="wherefore art thou image?"></img></a>
+      	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+          <img
+          class="img-responsive"
+          src="{{ post.cover | prepend: "/images/724/" }}"
+          alt="{{ post.title }} cover image" />
+        </a>
 	  </div>
 	  <div class="col-sm-7 hidden-xs post-txt">
-      	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h2>{{ post.title }}</h2></a><br />{{ post.brief }}
+      	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+          <h2>{{ post.title }}</h2>
+        </a>
+        <br />
+        {{ post.brief }}
 	  </div>
 	</div>
 	<div class="row">
-		<div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-3 post-separator">
+		<div
+    class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-3 post-separator">
 		</div>
 	</div>
     {% endfor %}
 
 	<div class="row">
 		<div class="col-xs-12">
-
-  			<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  			<p class="rss-subscribe">
+          subscribe
+          <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
+        </p>
 		</div>
 	</div>
-

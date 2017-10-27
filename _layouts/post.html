@@ -10,8 +10,8 @@ layout: default
   <div class="col-xs-12">
     <img
     src="{{ page.top_image | prepend: site.baseurl }}"
-    class="img-responsive">
-    </img>
+    class="img-responsive"
+    alt="{{ page.title }} banner image"/>
   </div>
 </div>
 <div class="row">
@@ -26,17 +26,17 @@ layout: default
           <div class="col-xs-12">
             {% if img contains "vimeo.com/" %}
               <div class="video-wrapper">
-                <iframe src="https://player.vimeo.com/video/{{ img | remove_first: "vimeo.com/" }}?color=ffffff" width="712" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <iframe src="https://player.vimeo.com/video/{{ img | remove_first: "vimeo.com/" }}?color=ffffff" width="712" height="400" frameborder="0" allowfullscreen></iframe>
               </div>
             {% elsif img contains "youtube.com/" %}
               <div class="video-wrapper">
-                <iframe src="https://www.youtube.com/embed/{{ img | remove_first: "youtube.com/" }}" width="712" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/{{ img | remove_first: "youtube.com/" }}" width="712" height="400" frameborder="0" allowfullscreen></iframe>
               </div>
             {% else %}
               <img
               src="{{ img | prepend: site.baseurl }}"
-              class="img-responsive">
-              </img>
+              class="img-responsive"
+              alt="another image" />
             {% endif %}
           </div>
         </div>
