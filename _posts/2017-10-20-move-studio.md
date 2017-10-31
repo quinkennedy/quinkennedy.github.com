@@ -9,8 +9,8 @@ both can impact the world around you."
 cover: movestudio.jpg
 top_image: /images/1140/movestudio.jpg
 other_images:
-  - vimeo.com/234748837
   - /images/720/move_a.jpg
+  - vimeo.com/234748837
 tags: [Unity, VR, MR, Dance]
 role: Lead Developer
 links:
