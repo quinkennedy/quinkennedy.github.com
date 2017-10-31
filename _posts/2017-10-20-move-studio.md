@@ -27,13 +27,11 @@ Move Studio is a Virtual Reality experience that incorporates dance and basketba
 There are two parts to the application. The first is a demo experience that transports you through four environments. In each environment there are new ways of interacting with your surroundings, and the choreography is all around you. The second part of the application is a sandbox creation space where you can stage and play your own choreography.
 
 Move Studio was commissioned by Microsoft to be featured as a demo experience for the Microsoft Mixed Reality headsets at partner retail outlets worldwide.
-<br /><br />
 
-#### My Role & Responsibilities
+## My Role & Responsibilities
 I was the lead developer, responsible for system architecture, programming, and performance tuning.
-<br /><br />
 
-#### Collaborators
+## Collaborators
 * [Thomas Wester][tw] Technical Director
 * [Joey Verbeke][jv] Sound Designer
 * [MAP Design Lab][mdl] Producer & Designer

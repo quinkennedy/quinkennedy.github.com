@@ -8,6 +8,32 @@ h1, h2, h3, h4, h5, h6{
   font-family:League Spartan;
 }
 
+.post-link h1{
+  font-size: 30px;
+}
+
+.post-content h2{
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.navbar-nav li{
+  float:left;
+}
+
+.navbar-nav{
+  margin: 0;
+}
+
+.navbar-nav li a{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.post-content .links{
+  border-top: 1px solid #eee;
+}
+
 .post-separator{
   border-width:2px 0px 0px 0px;
   border-style:solid;
@@ -18,11 +44,15 @@ h1, h2, h3, h4, h5, h6{
 
 .top-image div img{
   margin:0 auto;
+  max-height:70px;
+  opacity:0;
 }
 
 .top-image div{
   background-color:rgb(231, 231, 231);
   margin-bottom:10px;
+  background-size:cover;
+  background-position:center;
 }
 
 .other-images > div > div{
