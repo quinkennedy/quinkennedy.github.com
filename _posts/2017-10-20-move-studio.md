@@ -20,6 +20,8 @@ links:
     link: https://www.microsoft.com/store/apps
   - copy: VR Focus (press)
     link: https://www.vrfocus.com/2017/10/microsoft-launch-move-studio-to-convince-vr-naysayers/
+  - copy: Dexigner (press)
+    link: https://www.dexigner.com/news/30506
 ---
 
 Move Studio is a Virtual Reality experience that incorporates dance and basketball movement phrases in a series of abstract environments. Both you and the avatars around you effect the various environments as you each move in the space.
