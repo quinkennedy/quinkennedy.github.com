@@ -2,7 +2,7 @@
 layout: post
 title:  "Unparking.Space"
 date:   2019-11-26 12:00:00
-categories: [work, art]
+categories: art
 brief: "An interactive installation in a car parked in a lot."
 cover: unparkingspace.jpg
 top_image: /images/1140/unparkingspace.jpg
