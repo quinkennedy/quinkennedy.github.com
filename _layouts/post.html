@@ -39,7 +39,7 @@ layout: default
                     width="712" height="400" allowfullscreen></iframe>
                   </div>
                 {% elsif img contains ".mp4" %}
-                  <video width="720" autoplay>
+                  <video width="100%" autoplay>
                     <source src="{{ img | prepend: site.baseurl }}" type="video/mp4" />
                   </video>
                 {% else %}
