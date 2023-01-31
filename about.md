@@ -9,7 +9,7 @@ I entered university a ballet dancer, and came out a computer scientist.
 I work as a generalist, and have many years experience in the following roles:
 
 * Creative Technologist
-	- Working with Designers and Architects to develop a concept
+	- Working with Designers, Architects, and Researchers to develop a concept
 	- Identifying hardware and software approaches
 * Prototyper
 	- Testing interaction scenarios
@@ -18,9 +18,16 @@ I work as a generalist, and have many years experience in the following roles:
 * Developer
 	- Managing configuration and deployment of multi-machine installations
 	- Integrating hardware and software pieces with common communication backbone
-	- Developing frontend logic and backend services in openFrameworks, Processing, Node.js, Java
+	- Developing frontend logic and backend services
+	
+I am comfortable in a wide range of tools, including:
+* Unity, Java, Node.js, Python, openFrameworks, Arduino, Javascript
+* AR (headset and phone-based), VR, Web 
 
+I am also excited to learn or build new tools as the project warrants.
+
+<!--
 Other skills and interests:
 
-* working as a Lighting Designer for both dance and theater.
 * creating and distributing zines: [PaperBon.net](http://paperbon.net)
+-->
