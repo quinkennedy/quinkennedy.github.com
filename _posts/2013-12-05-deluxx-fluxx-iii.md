@@ -2,6 +2,7 @@
 layout: post
 title:  "Deluxx Fluxx"
 date:   2013-12-05 12:00:00
+priority: 8
 categories: [work, art]
 brief: "A pop-up art arcade for Faile and Bast at Art Basel 2013, Edinburgh Art Festival 2014, and Brooklyn Museum in 2015."
 cover: deluxxfluxx.jpg

@@ -2,6 +2,7 @@
 layout: post
 title:  "Commandments"
 date:   2013-03-02 18:00:00
+priority: 3
 categories: art
 brief: "Commandments delivered from on high."
 cover: commandments.jpg

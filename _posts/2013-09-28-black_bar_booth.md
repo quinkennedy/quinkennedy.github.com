@@ -2,6 +2,7 @@
 layout: post
 title:  "black_bar_booth"
 date:   2013-09-28 18:00:00
+priority: 7
 categories: art
 brief: "A descrete surveillance system which produces anonymized images of its view through a window."
 cover: blackbarbooth.jpg

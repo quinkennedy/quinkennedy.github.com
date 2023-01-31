@@ -3,7 +3,8 @@ layout: default
 title: Work
 ---
 
-    {% for post in site.categories.work %}
+{% assign plist = site.categories.work | sort: "priority" | reverse %}
+    {% for post in plist %}
 	<div class="row visible-xs-block post-title">
 		<div class="col-xs-12">
         	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">

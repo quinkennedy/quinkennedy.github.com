@@ -2,6 +2,7 @@
 layout: post
 title:  "Earth and Sky"
 date:   2012-07-01 12:00:00
+priority: 1
 categories: work
 brief: "A kiosk in a corporate lobby allowing visitors to navigate Google Earth, and see the matching stars above via Google Sky."
 cover: eands.jpg

@@ -2,14 +2,15 @@
 layout: post
 title:  "Embody:Move"
 date:   2019-01-20 12:00:00
+priority: 21
 categories: work
 brief: "A movement-centric, yoga-inspired, virtual reality experience
 where naturalistic environments respond to you."
-cover: embody_move.jpg
+cover: embody_move_combo.jpg
 top_image: /images/1140/embody_move.jpg
 other_images:
+  - /images/720/embody_move_selection.jpg
   - /images/720/embody_move_tree.jpg
-  - /images/720/embody_move_flowers.jpg
   - /images/720/embody_move_openpose.jpg
 tags: [Unity, VR, Dance]
 role: Developer

@@ -2,6 +2,7 @@
 layout: post
 title:  "Smooch Booth"
 date:   2013-04-12 12:00:00
+priority: 4
 categories: art
 brief: "An interactive installation that snapped a picture when people touched."
 cover: smoochbooth.jpg

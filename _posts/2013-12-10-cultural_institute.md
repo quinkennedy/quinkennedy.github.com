@@ -2,6 +2,7 @@
 layout: post
 title:  "Cultural Institute"
 date:   2013-12-10 12:00:00
+priority: 9
 categories: work
 brief: "An exhibition space featuring a lounge, atelier, and large, gesture-controlled, media wall driven by 12-computers. Our software was designed to display assets and exhibits from the Google Cultural Institute's collection."
 cover: gci.jpg

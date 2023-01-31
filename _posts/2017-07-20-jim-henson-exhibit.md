@@ -2,6 +2,7 @@
 layout: post
 title:  "Jim Henson Exhibit"
 date:   2017-07-20 12:00:00
+priority: 17
 categories: work
 brief: "An exhibition for the Museum of the Moving Image which incorporates two interactive touch points."
 cover: muppets.jpg

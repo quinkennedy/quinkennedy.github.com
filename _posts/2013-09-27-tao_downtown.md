@@ -2,6 +2,7 @@
 layout: post
 title:  "TAO: Downtown"
 date:   2013-09-27 12:00:00
+priority: 6
 categories: work
 brief: "A 16' statue in a high-class restaurant with various projection-mapped content that cycles on it."
 cover: tao_downtown.jpg

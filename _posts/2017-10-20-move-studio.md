@@ -2,6 +2,7 @@
 layout: post
 title:  "Move Studio"
 date:   2017-10-10 12:00:00
+priority: 18
 categories: work
 brief: "A Virtual Reality experience that puts you in the midst of
 dancers in abstract environments, where you and the dancers
