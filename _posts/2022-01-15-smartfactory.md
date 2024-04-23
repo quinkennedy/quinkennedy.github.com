@@ -2,7 +2,7 @@
 layout: post
 title:  "Smartfactory"
 date:   2022-05-10 12:00:00
-priority: 20.3
+priority: 20.1
 categories: work
 brief: "A series of touchpoints exploring the benefits of IoT in a factory setting"
 cover: smartfactory.jpg

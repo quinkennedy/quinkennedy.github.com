@@ -2,7 +2,7 @@
 layout: post
 title:  "Embody:Move"
 date:   2019-01-20 12:00:00
-priority: 21
+priority: 25
 categories: work
 brief: "A movement-centric, yoga-inspired, virtual reality experience
 where naturalistic environments respond to you."
